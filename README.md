@@ -26,13 +26,13 @@ Istio is an open-source service mesh that helps you manage and secure your micro
 
 - **Envoy Proxies**: Small sidecars that run alongside your services and handle all network traffic
 
-## Key Istio Concepts (Explained Simply)
+## Key Istio Concepts
 
 ### 1. Istio Sidecar Container
 
 **What it is**: A helper container that Istio adds to your application pods.
 
-**Simple explanation**: Imagine you're a restaurant. The sidecar is like having a dedicated waiter for each table who handles all communication between the kitchen and the customers. Your restaurant (application) doesn't need to worry about how orders get delivered - the waiter (sidecar) handles it all.
+**Explanation**: Imagine you're a restaurant. The sidecar is like having a dedicated waiter for each table who handles all communication between the kitchen and the customers. Your restaurant (application) doesn't need to worry about how orders get delivered - the waiter (sidecar) handles it all.
 
 **How it works**:
 - Automatically injected into your pods when enabled
